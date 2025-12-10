@@ -1,0 +1,38 @@
+name: meal_app
+description: "Meal DB Flutter App"
+publish_to: 'none' # приватен проект
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core packages
+  provider: ^6.0.0
+  http: ^1.6.0
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.10
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.17.5
+  firebase_messaging: ^14.9.4
+  shared_preferences: ^2.1.0
+
+  # Local notifications
+  flutter_local_notifications: ^17.2.0
+  timezone: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
